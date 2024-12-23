@@ -77,14 +77,14 @@
 			(pin input line
 				(at -5.08 6.35 0)
 				(length 2.54)
-				(name "1"
+				(name "ANT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "ANT"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -95,14 +95,14 @@
 			(pin input line
 				(at -5.08 1.27 0)
 				(length 2.54)
-				(name "2"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "GND"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
