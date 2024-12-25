@@ -1,0 +1,226 @@
+(footprint "Tactile Microswitch 3x4x2.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.05 2.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d13332ba-a321-493f-92e3-fca99d614449")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Tactile Microswitch 3x4x2.5mm"
+		(at 0.4 4.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5d0e48ce-6fcc-406b-8f98-7c8560533cbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c0cf77d-70ca-42ca-acfd-e5d18aeb4da5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "Aliexpress"
+		(at -0.1 7.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79ba7855-b4a1-4507-a5ea-c1393fc2378a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Button Tact Switch SMD 4Pin 3X4X2.5MM White Tactile Tact Push Button Micro Switch Momentary 3*4*2.5mm"
+		(at 6.05 8.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23a24e87-1c3b-481d-8984-287af0890eeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -1.075)
+		(end 2.1 -1.075)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "0676c282-ad0a-4581-bb19-4c0f67c0fcfe")
+	)
+	(fp_line
+		(start -2.1 1.075)
+		(end 2.1 1.075)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "1ddabe6c-9aa5-4d5a-8152-26aab66dd6fd")
+	)
+	(fp_rect
+		(start -2.1 -1.7)
+		(end 2.1 1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6aad2454-fe40-4c4c-9365-8bac04d8c09c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.077033 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1821191f-2eae-4e96-ab48-c71fc9f59356")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.4 5.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2df03d5c-c66c-41c5-a329-d422a5af4c1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "940c3ab6-3e94-4a5e-98c2-1218fd67a095")
+		(pts
+			(xy 2.1 -1.7) (xy 2.1 1.7)
+		)
+		(height -13.95)
+		(gr_text "3.4000 mm"
+			(at 14.9 0 90)
+			(layer "User.1")
+			(uuid "940c3ab6-3e94-4a5e-98c2-1218fd67a095")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "e2d2a07a-9209-4670-9433-4b80cc81b350")
+		(pts
+			(xy -2.1 -1.7) (xy 2.1 -1.7)
+		)
+		(height -5.05)
+		(gr_text "4.2000 mm"
+			(at 0 -7.9 0)
+			(layer "User.1")
+			(uuid "e2d2a07a-9209-4670-9433-4b80cc81b350")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(pad "1" smd rect
+		(at -2.8 -1.35)
+		(size 0.7 0.55)
+		(drill
+			(offset 0.35 0.275)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9665a721-bab8-407f-9066-939e259095c0")
+	)
+	(pad "1" smd rect
+		(at 2.1 -1.35)
+		(size 0.7 0.55)
+		(drill
+			(offset 0.35 0.275)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b4e348cf-586f-4a85-ab49-c1a111332b98")
+	)
+	(pad "2" smd rect
+		(at -2.8 1.35)
+		(size 0.7 0.55)
+		(drill
+			(offset 0.35 -0.275)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "259e1260-b96a-4a7f-8f24-46d5eea25f7d")
+	)
+	(pad "2" smd rect
+		(at 2.1 1.35)
+		(size 0.7 0.55)
+		(drill
+			(offset 0.35 -0.275)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "beb59a87-2c42-4350-a76a-44a959b128fc")
+	)
+)
