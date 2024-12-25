@@ -27,8 +27,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at -9.906 -9.398 0)
+		(property "Footprint" "ankit_kicad_antenna:ANT2-SMD-9.5X2.1X1.0MM"
+			(at 0.508 -5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "ANT"
-			(at -2.54 1.905 0)
+			(at -2.032 -3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,12 +19,12 @@
 			)
 		)
 		(property "Value" "AN9520-245"
-			(at -6.35 -3.556 0)
+			(at 0.254 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" "ankit_kicad_antenna:ANT2-SMD-9.5X2.1X1.0MM"
@@ -87,16 +87,6 @@
 		)
 		(property "Price" ""
 			(at 8.128 4.826 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VALUE" "AN9520"
-			(at -0.508 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
