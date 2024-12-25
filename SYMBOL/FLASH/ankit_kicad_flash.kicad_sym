@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ankit_kicad_flash:SON127P500X600X80-9N"
+		(property "Footprint" "ankit_kicad_flash:Winbond-SON127P500X600X80-9N"
 			(at 0.508 -25.4 0)
 			(effects
 				(font
@@ -46,17 +46,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Winbond Electronics"
-			(at 1.524 -20.32 0)
+		(property "Description" "FLASH - NOR Memory IC 16Mb (2M x 8) SPI - Quad I/O 133MHz 8-WSON (6x5"
+			(at 5.588 -17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,8 +56,8 @@
 				(hide yes)
 			)
 		)
-		(property "DESCRIPTION" "FLASH - NOR Memory IC 16Mb (2M x 8) SPI - Quad I/O 133MHz 8-WSON (6x5"
-			(at 5.588 -17.272 0)
+		(property "MF" "Winbond Electronics"
+			(at 1.524 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
