@@ -1,4 +1,4 @@
-(footprint "Nomadic_Controls_1"
+(footprint "Nomadic_Controls_1_20mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -736,5 +736,71 @@
 		(fill solid)
 		(layer "F.SilkS")
 		(uuid "7a81e886-bca0-44d4-88c7-01f3ef0bfb1d")
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "dcd6ab6d-e6a8-49e9-a76c-ab3c6f9e4a62")
+		(pts
+			(xy 9.999878 -3.260158) (xy -10.3 -3.2)
+		)
+		(height 6.073286)
+		(gr_text "20.3000 mm"
+			(at -0.171467 -10.453333 0.1697936024)
+			(layer "User.1")
+			(uuid "dcd6ab6d-e6a8-49e9-a76c-ab3c6f9e4a62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "e3216234-78a9-4ca0-ac9b-d46465d4c444")
+		(pts
+			(xy 8.933697 -4.105431) (xy 8.903333 4.105641)
+		)
+		(height -4.993884)
+		(gr_text "8.2111 mm"
+			(at 12.762373 0.014319 89.78812497)
+			(layer "User.1")
+			(uuid "e3216234-78a9-4ca0-ac9b-d46465d4c444")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 )
