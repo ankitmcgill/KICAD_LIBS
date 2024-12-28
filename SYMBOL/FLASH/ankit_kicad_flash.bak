@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ankit_kicad_flash:SON127P500X600X80-9N"
+		(property "Footprint" "ankit_kicad_flash:Winbond-SON127P500X600X80-9N"
 			(at 0.508 -25.4 0)
 			(effects
 				(font
@@ -46,17 +46,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Winbond Electronics"
-			(at 1.524 -20.32 0)
+		(property "Description" "FLASH - NOR Memory IC 16Mb (2M x 8) SPI - Quad I/O 133MHz 8-WSON (6x5"
+			(at 5.588 -17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,8 +56,8 @@
 				(hide yes)
 			)
 		)
-		(property "DESCRIPTION" "FLASH - NOR Memory IC 16Mb (2M x 8) SPI - Quad I/O 133MHz 8-WSON (6x5"
-			(at 5.588 -17.272 0)
+		(property "MF" "Winbond Electronics"
+			(at 1.524 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -295,6 +286,237 @@
 					(effects
 						(font
 							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Winbond-W25Q64JVSSIQ"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 26.162 -11.938 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Winbond-W25Q64JVSSIQ"
+			(at 26.67 5.334 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ankit_kicad_flash:Winbond-SOIC-8_5P28X5P28_WIN"
+			(at 26.162 -11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "W25Q64JVSSIQ"
+			(at 27.178 -14.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "W25Q64JVSSIQ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOIC-8_5P28X5P28_WIN SOIC-8_5P28X5P28_WIN-M SOIC-8_5P28X5P28_WIN-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Winbond-W25Q64JVSSIQ_0_1"
+			(pin unspecified line
+				(at 3.81 -2.54 0)
+				(length 3.81)
+				(name "DO(IO1)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 3.81 -7.62 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 46.99 -7.62 180)
+				(length 3.81)
+				(name "DI(IO0)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 46.99 -5.08 180)
+				(length 3.81)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Winbond-W25Q64JVSSIQ_1_1"
+			(rectangle
+				(start 7.62 3.81)
+				(end 43.18 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 0 0)
+				(length 3.81)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 -5.08 0)
+				(length 3.81)
+				(name "~{WP}(IO2)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 46.99 -2.54 180)
+				(length 3.81)
+				(name "~{HOLD}/RESET(IO3)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 46.99 0 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
