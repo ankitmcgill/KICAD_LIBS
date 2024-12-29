@@ -4,12 +4,12 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.3175 -1.7145 0)
+		(at 0 -1.9 0)
 		(layer "F.SilkS")
 		(uuid "8db33608-11ba-44a6-aec7-5ebc87ae986b")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 1 0.7)
 				(thickness 0.15)
 			)
 		)
@@ -63,8 +63,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -4 -1.05)
-		(end 4 -1.05)
+		(start -4.05 -1.25)
+		(end 3.95 -1.25)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -73,8 +73,8 @@
 		(uuid "d4e65fdd-beff-4eaf-885c-34bd74ebc02e")
 	)
 	(fp_line
-		(start 4 1.05)
-		(end -4 1.05)
+		(start 3.95 1.25)
+		(end -4.05 1.25)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -118,5 +118,16 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "cab2902e-b085-48ef-944a-003e919b4ddb")
+	)
+	(model "/media/ankit/external_hdd/sandbox/KICAD_LIBS/3D/ANTENNA/AN9520-245.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )
