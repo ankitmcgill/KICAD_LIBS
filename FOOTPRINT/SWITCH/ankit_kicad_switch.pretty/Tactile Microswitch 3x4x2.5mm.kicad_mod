@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -1.95 -1.7)
-		(end 1.95 1.7)
+		(start -1.425 -1.475)
+		(end 1.4 1.475)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -80,7 +80,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 1.077033 0)
+		(end 0.8 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -168,38 +168,26 @@
 			(extension_offset 0.5) keep_text_aligned)
 	)
 	(pad "1" smd rect
-		(at -2.8 -1.35)
-		(size 0.7 0.55)
-		(drill
-			(offset 0.35 0.275)
-		)
+		(at -2.02 -1.08)
+		(size 0.95 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9665a721-bab8-407f-9066-939e259095c0")
 	)
 	(pad "2" smd rect
-		(at 2.1 -1.35)
-		(size 0.7 0.55)
-		(drill
-			(offset 0.35 0.275)
-		)
+		(at 2.02 -1.08)
+		(size 0.95 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b4e348cf-586f-4a85-ab49-c1a111332b98")
 	)
 	(pad "3" smd rect
-		(at -2.8 1.35)
-		(size 0.7 0.55)
-		(drill
-			(offset 0.35 -0.275)
-		)
+		(at -2.02 1.08)
+		(size 0.95 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "259e1260-b96a-4a7f-8f24-46d5eea25f7d")
 	)
 	(pad "4" smd rect
-		(at 2.1 1.35)
-		(size 0.7 0.55)
-		(drill
-			(offset 0.35 -0.275)
-		)
+		(at 2.02 1.08)
+		(size 0.95 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "beb59a87-2c42-4350-a76a-44a959b128fc")
 	)
